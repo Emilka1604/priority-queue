@@ -2,6 +2,7 @@
 #include <ctime>
 #include <locale>
 void main() {
+
 	setlocale(LC_CTYPE, "Rus");
 	std::vector<int> v1 = { 34, 12, 1, 6, 9 };
 	std::vector<std::string> v2 = { "34", "12", "1", "6", "9" };
