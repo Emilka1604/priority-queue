@@ -39,6 +39,7 @@ public:
 template<class T>
 class Priority_queue 
 {
+
 private:
 	knot<T>* heap_;
 	int size_;
